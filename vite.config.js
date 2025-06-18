@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
     plugins: [
         laravel({
-            input: 'resources/js/Login.jsx', // سيصبح نقطة الدخول
+            input: 'resources/js/app.js', // سيصبح نقطة الدخول
             refresh: true,
         }),
         react(),
